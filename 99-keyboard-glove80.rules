@@ -1,0 +1,2 @@
+# should be in /usr/lib/udev/rules.d
+SUBSYSTEM=="input", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="27db",  ENV{XKBLAYOUT}="eu"
